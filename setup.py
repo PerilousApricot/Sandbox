@@ -8,7 +8,6 @@ parser.add_option("--test-total-slices", dest="total_slices",
 parser.add_option("--test-current-slice", dest="current_slice",
                   help="this slice", default = 0)
 
-
 (options, args) = parser.parse_args()
 
 print "This is the sandbox test harness. play nice"
